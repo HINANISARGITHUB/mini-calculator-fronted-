@@ -130,3 +130,51 @@ h1 {
     color: white;
     padding: 20px;
 }
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+
+/* Mobile */
+@media (max-width: 600px) {
+    body {
+        overflow: auto;
+    }
+
+    .main-container {
+        flex-direction: column;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .boy-section {
+        display: none; /* hides image for better mobile layout */
+    }
+
+    .glass-panel {
+        width: 100%;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    #calc-input {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .calculate-btn {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    #result-text {
+        font-size: 32px;
+        padding: 10px;
+    }
+}
