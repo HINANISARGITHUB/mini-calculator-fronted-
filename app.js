@@ -1,4 +1,3 @@
-
 function calculate() {
     let input = document.getElementById("calc-input").value;
 
